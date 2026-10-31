@@ -1,0 +1,899 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ann Hair Transplant</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Consult in New York. Surgery with a licensed team in Zhengzhou, China. Follow-up back home. 2,000 grafts from $3,000.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600&display=swap">
+<style>
+/* layout: dark editorial. full-bleed media heroes fading to black, serif display, gold used sparingly for price + cta */
+:root{
+  color-scheme: dark;
+  --bg:#07080b;
+  --surface:#0f1118;
+  --surface-2:#151926;
+  --line:rgba(214,190,140,.16);
+  --fg:#eee9df;
+  --muted:#9b978e;
+  --gold:#cfb37c;
+  --gold-soft:rgba(207,179,124,.12);
+  --on-gold:#17120a;
+  --navy:#121a2e;
+  --display:"Instrument Serif", "Cormorant Garamond", Georgia, serif;
+  --body:"Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --gutter:max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r:max(16px, env(safe-area-inset-right, 0px));
+  --wrap:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--bg)}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.04;margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1{font-size:clamp(46px,7.4vw,96px)}
+h2{font-size:clamp(36px,5vw,64px)}
+h3{font-size:clamp(24px,2.4vw,30px)}
+em{font-style:italic;color:var(--gold)}
+p{margin:0;max-width:62ch}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-left:var(--gutter);padding-right:var(--gutter-r)}
+.eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:500}
+.muted{color:var(--muted)}
+.lead{font-size:clamp(17px,1.6vw,19px);color:#cfcabe}
+section{padding-block:clamp(64px,9vw,120px)}
+.stack{display:flex;flex-direction:column;gap:20px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:10px;padding:13px 22px;border-radius:999px;font:600 15px/1 var(--body);text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn-gold{background:var(--gold);color:var(--on-gold)}
+.btn-gold:hover{background:#dcc391}
+.btn-ghost{border-color:var(--line);color:var(--fg);background:rgba(255,255,255,.03)}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
+.btn:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+
+/* header */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(7,8,11,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand svg{width:26px;height:26px;color:var(--gold);flex:none}
+.brand b{font:600 13px/1.1 var(--body);letter-spacing:.2em}
+.brand small{display:block;font-size:10px;letter-spacing:.14em;color:var(--muted);font-weight:500}
+.links{display:flex;gap:22px;align-items:center}
+.links a{font-size:14px;text-decoration:none;color:#cfcabe}
+.links a:hover,.links a[aria-current="page"]{color:var(--gold)}
+.menu-btn{display:none;background:none;border:1px solid var(--line);color:var(--fg);border-radius:999px;padding:9px 14px;font:500 14px var(--body)}
+.mobile-menu{border-top:1px solid var(--line);padding-block:12px 20px}
+.mobile-menu a{display:block;padding:12px 0;font-family:var(--display);font-size:28px;text-decoration:none;border-bottom:1px solid var(--line)}
+@media (max-width:980px){.links{display:none}.menu-btn{display:inline-flex}.nav .btn-gold{display:none}}
+
+/* placeholders */
+.ph{position:relative;border:1px dashed rgba(207,179,124,.45);border-radius:18px;background:
+  repeating-linear-gradient(135deg,rgba(207,179,124,.035) 0 12px,transparent 12px 24px),var(--surface);
+  display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;min-height:220px;max-width:100%;overflow:hidden}
+.ph span{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);line-height:1.6}
+.ph span i{display:block;font-style:normal;color:var(--muted);letter-spacing:.04em;text-transform:none;font-size:13px}
+
+/* hero */
+.hero{position:relative;padding:0;overflow:hidden}
+.hero-media{position:absolute;inset:0;border:0;border-radius:0;min-height:0;align-items:flex-start;padding-top:120px}
+.hero-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,8,11,.15) 0%,rgba(7,8,11,.35) 45%,var(--bg) 92%)}
+.hero-inner{position:relative;z-index:2;min-height:clamp(600px,88vh,860px);display:grid;grid-template-columns:1.4fr 1fr;align-items:end;gap:40px;padding-block:140px 72px}
+.hero-inner > div{min-width:0}
+.hero-side{display:flex;flex-direction:column;gap:22px;padding-bottom:10px}
+.facts{display:flex;flex-wrap:wrap;gap:10px}
+.chip{font-size:13px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(15,17,24,.7);color:#d8d2c5}
+@media (max-width:820px){.hero-inner{grid-template-columns:1fr;padding-block:300px 56px}}
+
+/* journey window */
+.journey{position:relative}
+.journey-stage{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:clamp(16px,3vw,40px)}
+.journey-stage h2{font-size:clamp(36px,5.4vw,76px)}
+.journey-stage .r{text-align:right}
+.window{width:clamp(220px,26vw,320px);aspect-ratio:3/4.2;border-radius:46% / 38%;padding:16px;background:linear-gradient(160deg,#e9e6df,#b9b5ad);box-shadow:0 0 0 10px #d9d5cd inset,0 30px 80px rgba(0,0,0,.6),0 0 120px rgba(207,179,124,.08);max-width:100%}
+.window .ph{height:100%;min-height:0;border-radius:44% / 36%;border-color:rgba(18,26,46,.35);background:linear-gradient(180deg,#5c8fc9,#bcd4ec);}
+.window .ph span{color:#0d1626}.window .ph span i{color:#1d2b44}
+@media (max-width:760px){.journey-stage{grid-template-columns:1fr;text-align:center;justify-items:center}.journey-stage .r{text-align:center}}
+
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:20px;overflow:hidden;margin-top:72px}
+.step{background:var(--bg);padding:32px 28px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.step .n{font-family:var(--display);font-size:56px;color:var(--gold);line-height:1}
+.step .where{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+@media (max-width:820px){.steps{grid-template-columns:1fr}}
+
+/* thoughts orbit */
+.orbit{position:relative;height:520px;max-width:820px;margin:0 auto}
+.orbit::before,.orbit::after{content:"";position:absolute;left:50%;top:50%;border:1px solid var(--line);border-radius:50%;transform:translate(-50%,-50%)}
+.orbit::before{width:420px;height:420px}.orbit::after{width:220px;height:220px}
+.orbit .center{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 24px}
+.orbit .center h2{font-size:clamp(32px,4vw,46px)}
+.thought{position:absolute;font-size:13px;line-height:1.45;padding:10px 14px;border-radius:10px;background:var(--surface-2);border:1px solid var(--line);color:#c9c3b6;max-width:220px}
+.t1{left:36%;top:4%}.t2{left:2%;top:24%;opacity:.7}.t3{right:2%;top:30%}.t4{left:6%;bottom:16%;opacity:.7}.t5{right:6%;bottom:10%}
+@media (max-width:760px){.orbit{height:auto;display:flex;flex-direction:column;gap:10px}.orbit::before,.orbit::after{display:none}.orbit .center{position:static;order:-1;margin-bottom:18px}.thought{position:static;max-width:none;opacity:1!important}}
+
+/* split + cards */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,72px);align-items:center}
+.split > *{min-width:0}
+@media (max-width:860px){.split{grid-template-columns:1fr}}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+.card .ph{border:0;border-radius:0;border-bottom:1px dashed rgba(207,179,124,.35);aspect-ratio:4/3;min-height:0}
+.card-body{padding:24px;display:flex;flex-direction:column;gap:12px;flex:1}
+.card-body .btn{align-self:flex-start;margin-top:auto}
+.textlink{color:var(--gold);text-decoration:none;font-weight:500;font-size:15px}
+.textlink:hover{text-decoration:underline}
+
+/* package */
+.pkg{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:24px;overflow:hidden;background:var(--surface)}
+.pkg > div{padding:clamp(28px,4vw,48px);min-width:0}
+.pkg .price-side{background:radial-gradient(120% 90% at 0% 0%,rgba(207,179,124,.16),transparent 60%),var(--navy);display:flex;flex-direction:column;gap:18px;justify-content:center}
+.price{font-family:var(--display);font-size:clamp(76px,10vw,128px);line-height:.9;color:var(--gold);font-variant-numeric:tabular-nums}
+.grafts{font-size:13px;letter-spacing:.16em;text-transform:uppercase}
+.per{font-size:15px;color:var(--muted)}
+.list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column}
+.list li{padding:14px 0;border-bottom:1px solid var(--line);display:flex;gap:14px;align-items:baseline}
+.list li:last-child{border-bottom:0}
+.list li::before{content:"";flex:none;width:7px;height:7px;border-radius:50%;background:var(--gold);transform:translateY(-2px)}
+.list.x li::before{background:none;border:1px solid var(--muted)}
+.note{font-size:13px;color:var(--muted);border-left:2px solid var(--gold);padding-left:12px;max-width:none}
+@media (max-width:860px){.pkg{grid-template-columns:1fr}}
+
+/* compare table */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:16px}
+table{width:100%;border-collapse:collapse;min-width:520px;font-size:15px}
+th,td{text-align:left;padding:16px 18px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:500;color:var(--muted);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+tr:last-child td{border-bottom:0}
+td:first-child{color:var(--fg);font-weight:500}
+
+/* page head */
+.page-head{position:relative;padding-block:clamp(72px,10vw,130px) clamp(40px,6vw,64px);border-bottom:1px solid var(--line);background:radial-gradient(80% 120% at 85% 0%,rgba(18,26,46,.9),transparent 70%)}
+.page-head .stack{gap:18px}
+.crumb{font-size:13px;color:var(--muted)}
+
+/* faq */
+.faq{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;padding:22px 40px 22px 0;font-size:clamp(18px,1.8vw,21px);position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:4px;top:18px;font-size:26px;color:var(--gold);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .a{padding:0 0 24px;color:#cfcabe;display:flex;flex-direction:column;gap:12px}
+.faq-group{display:flex;flex-direction:column;gap:18px}
+.faq-group + .faq-group{margin-top:56px}
+
+/* team */
+.team-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:20px}
+.person .ph{aspect-ratio:4/5;min-height:0}
+.person{display:flex;flex-direction:column;gap:12px}
+.tag{display:inline-block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:5px 10px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+
+/* results */
+.results-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:20px}
+.result{display:flex;flex-direction:column;gap:10px}
+.result .pair{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.result .ph{min-height:0;aspect-ratio:3/4;border-radius:12px;padding:10px}
+
+/* form */
+.form-card{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:clamp(24px,4vw,44px);display:flex;flex-direction:column;gap:22px}
+.field{display:flex;flex-direction:column;gap:8px}
+.field label,.legend{font-size:13px;font-weight:500;color:#d8d2c5}
+.field input,.field select{width:100%;background:var(--bg);border:1px solid var(--line);color:var(--fg);border-radius:12px;padding:14px 16px;font:400 16px var(--body)}
+.field input:focus,.field select:focus{border-color:var(--gold);outline:none}
+.field input[aria-invalid="true"]{border-color:#e2735f}
+.err{font-size:13px;color:#ec8b78;min-height:0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:600px){.two{grid-template-columns:1fr}}
+.choices{display:flex;flex-wrap:wrap;gap:10px}
+.choice input{position:absolute;opacity:0;pointer-events:none}
+.choice span{display:inline-block;padding:11px 16px;border:1px solid var(--line);border-radius:999px;cursor:pointer;font-size:15px}
+.choice input:checked + span{background:var(--gold);color:var(--on-gold);border-color:var(--gold)}
+.choice input:focus-visible + span{outline:2px solid var(--gold);outline-offset:3px}
+.consent{display:flex;gap:12px;align-items:flex-start;font-size:13px;color:var(--muted);line-height:1.55}
+.consent input{margin-top:3px;width:18px;height:18px;accent-color:var(--gold);flex:none}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.done{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.done .check{width:52px;height:52px;border-radius:50%;background:var(--gold);color:var(--on-gold);display:flex;align-items:center;justify-content:center;font-size:24px}
+
+/* cta band */
+.band{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:radial-gradient(60% 140% at 50% 100%,rgba(207,179,124,.14),transparent 70%)}
+.band .wrap{display:flex;flex-direction:column;align-items:center;text-align:center;gap:22px}
+.band p{margin:0 auto}
+.phone{font-family:var(--display);font-size:clamp(28px,3.4vw,40px);color:var(--fg);text-decoration:none;font-variant-numeric:tabular-nums}
+
+/* legal */
+.legal{display:flex;flex-direction:column;gap:28px;max-width:760px}
+.legal h3{font-size:26px}
+.legal .stack{gap:10px}
+.draft{display:inline-block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--on-gold);background:var(--gold);padding:5px 10px;border-radius:6px}
+
+/* footer */
+footer{border-top:1px solid var(--line);padding-block:64px 120px;background:#05060a}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+.foot > *{min-width:0}
+.foot h4{margin:0 0 14px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.foot ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px}
+.foot a{text-decoration:none;color:#cfcabe;font-size:15px}
+.foot a:hover{color:var(--gold)}
+.disclose{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:8px}
+.disclose p{max-width:none}
+@media (max-width:820px){.foot{grid-template-columns:1fr}}
+
+/* mobile sticky cta */
+.mcta{position:fixed;left:0;right:0;bottom:0;z-index:40;display:none;gap:10px;padding:12px var(--gutter-r) calc(12px + env(safe-area-inset-bottom,0px)) var(--gutter);background:rgba(7,8,11,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--line)}
+.mcta .btn{flex:1;justify-content:center}
+@media (max-width:820px){.mcta{display:flex}}
+
+.fade{animation:fade .5s ease both}
+@keyframes fade{from{opacity:.4;transform:translateY(8px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="Ann Hair Transplant home">
+      <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 22 L7 10 L12 16 L16 7 L20 16 L25 10 L27 22 Z" stroke-linejoin="round"/><path d="M5 26 H27"/></svg>
+      <span><b>ANN</b><small>HAIR TRANSPLANT</small></span>
+    </a>
+    <nav class="links" aria-label="Main">
+      <a href="#hair-transplant">Hair</a>
+      <a href="#eyebrow-transplant">Eyebrow</a>
+      <a href="#process">Process</a>
+      <a href="#package">Package</a>
+      <a href="#medical-team">Medical Team</a>
+      <a href="#results">Results</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="row">
+      <a class="btn btn-gold" href="#contact">Free consultation</a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+    </div>
+  </div>
+  <div class="wrap mobile-menu" id="mobileMenu" hidden>
+    <a href="#home">Home</a>
+    <a href="#hair-transplant">Hair Transplant</a>
+    <a href="#eyebrow-transplant">Eyebrow Transplant</a>
+    <a href="#process">Our Process</a>
+    <a href="#package">Package</a>
+    <a href="#medical-team">Medical Team</a>
+    <a href="#results">Before &amp; After</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HOME ============ -->
+<div data-view="home">
+  <section class="hero">
+    <div class="ph hero-media"><span>Hero video<i>16:9 journey loop, muted, autoplay. mobile: vertical cut or poster still</i></span></div>
+    <div class="wrap hero-inner">
+      <div class="stack" style="gap:24px">
+        <span class="eyebrow">New York · Zhengzhou · New York</span>
+        <h1>Consult in New York.<br>Surgery in China.<br><em>Home with a plan.</em></h1>
+      </div>
+      <div class="hero-side">
+        <p class="lead">Meet a medical team in Queens before you travel. Have your procedure with a licensed surgical team in Zhengzhou, with hotel and transfers arranged. Come back to local follow-up.</p>
+        <div class="row">
+          <a class="btn btn-gold" href="#contact">Request a free consultation</a>
+          <a class="btn btn-ghost" href="#package">See the package</a>
+        </div>
+        <div class="facts">
+          <span class="chip">2,000 grafts from $3,000</span>
+          <span class="chip">Hotel + airport transfers</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="journey">
+    <div class="wrap">
+      <div class="journey-stage">
+        <h2>Leave from<br><em>New York</em></h2>
+        <div class="window"><div class="ph"><span>Window clip<i>clouds / flight b-roll</i></span></div></div>
+        <h2 class="r">Arrive<br><em>taken care of</em></h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <span class="n">1</span>
+          <span class="where">Flushing, Queens</span>
+          <h3>New York consultation</h3>
+          <p class="muted">Meet in person at HQ Med Spa for a consultation and scalp evaluation. Optional pre-procedure care is available where appropriate.</p>
+        </div>
+        <div class="step">
+          <span class="n">2</span>
+          <span class="where">Zhengzhou, China</span>
+          <h3>Surgery in China</h3>
+          <p class="muted">Your procedure is performed by the Princess Ann surgical team. Airport pickup, hotel and local transport are arranged for you.</p>
+        </div>
+        <div class="step">
+          <span class="n">3</span>
+          <span class="where">Back in New York</span>
+          <h3>Local follow-up</h3>
+          <p class="muted">Come home to follow-up options close by, so you're not navigating recovery alone from across the world.</p>
+        </div>
+      </div>
+      <div class="row" style="margin-top:32px;justify-content:center"><a class="textlink" href="#process">How the full journey works →</a></div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="orbit">
+        <div class="center"><h2>Sound familiar?<br>There's a <em>clearer</em> path.</h2></div>
+        <div class="thought t1">I wear a hat in every photo now.</div>
+        <div class="thought t2">Quotes here cost more than my car.</div>
+        <div class="thought t3">Going abroad for surgery feels like a gamble.</div>
+        <div class="thought t4">Who do I call if something feels off after?</div>
+        <div class="thought t5">I don't even know where to start.</div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap stack" style="gap:40px">
+      <div class="stack" style="gap:14px">
+        <span class="eyebrow">Services</span>
+        <h2>Two procedures. One coordinated team.</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="ph"><span>Hair transplant photo<i>clinic or procedure detail</i></span></div>
+          <div class="card-body">
+            <h3>Hair Transplant</h3>
+            <p class="muted">Follicles are moved from a donor area to thinning areas of the scalp to restore coverage and frame the hairline.</p>
+            <a class="textlink" href="#hair-transplant">Learn about hair transplants →</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="ph"><span>Eyebrow transplant photo<i>authorized detail shot</i></span></div>
+          <div class="card-body">
+            <h3>Eyebrow Transplant</h3>
+            <p class="muted">Individual follicles are placed to rebuild sparse, over-plucked or uneven brows with natural direction and shape.</p>
+            <a class="textlink" href="#eyebrow-transplant">Learn about eyebrow transplants →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="pkg">
+        <div class="price-side">
+          <span class="eyebrow">The package</span>
+          <div class="price">$3,000</div>
+          <div class="grafts">2,000 grafts</div>
+          <div class="per">Works out to $1.50 per graft</div>
+          <a class="btn btn-gold" href="#contact" style="align-self:flex-start">Check if you're a candidate</a>
+        </div>
+        <div class="stack">
+          <span class="eyebrow">What's included</span>
+          <ul class="list">
+            <li>Hair transplant surgery in Zhengzhou</li>
+            <li>Hotel accommodations <span class="muted">&nbsp;[nights TBC]</span></li>
+            <li>Airport pickup on arrival</li>
+            <li>Return transfer to the airport</li>
+            <li>Local assistance during your stay</li>
+          </ul>
+          <p class="note">International airfare not included. New York services are optional and billed separately by HQ Med Spa.</p>
+          <a class="textlink" href="#package">Full package details →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap split">
+      <div class="ph" style="aspect-ratio:4/3;min-height:0"><span>Professional exchange photo<i>Monk's training visit in China</i></span></div>
+      <div class="stack">
+        <span class="eyebrow">Medical team</span>
+        <h2>A team that has <em>worked together</em>, not just referred.</h2>
+        <p class="lead">Our New York and Zhengzhou professionals have an established working relationship, including a two-week training visit to the surgical team in China.</p>
+        <a class="btn btn-ghost" href="#medical-team" style="align-self:flex-start">Meet the medical team</a>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap stack" style="gap:36px">
+      <div class="row" style="justify-content:space-between;align-items:flex-end">
+        <div class="stack" style="gap:14px">
+          <span class="eyebrow">Before &amp; after</span>
+          <h2>Real patients. Real timelines.</h2>
+        </div>
+        <a class="textlink" href="#results">See all results →</a>
+      </div>
+      <div class="results-grid">
+        <div class="result"><div class="pair"><div class="ph"><span>Before</span></div><div class="ph"><span>After<i>12 mo</i></span></div></div><span class="muted" style="font-size:13px">Authorized patient result · grafts and timeline TBC</span></div>
+        <div class="result"><div class="pair"><div class="ph"><span>Before</span></div><div class="ph"><span>After<i>12 mo</i></span></div></div><span class="muted" style="font-size:13px">Authorized patient result · grafts and timeline TBC</span></div>
+        <div class="result"><div class="pair"><div class="ph"><span>Before</span></div><div class="ph"><span>After<i>eyebrow</i></span></div></div><span class="muted" style="font-size:13px">Authorized patient result · details TBC</span></div>
+      </div>
+      <p class="muted" style="font-size:13px">Individual results vary. Photos are shared with written patient permission.</p>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <span class="eyebrow">Free initial consultation</span>
+      <h2>Start with a conversation<br>in <em>New York</em>.</h2>
+      <p class="lead">No commitment. Ask anything about the procedure, travel, pricing and recovery.</p>
+      <div class="row" style="justify-content:center">
+        <a class="btn btn-gold" href="#contact">Request a consultation</a>
+        <a class="phone" href="tel:+17184455888">718-445-5888</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ HAIR ============ -->
+<div data-view="hair-transplant" hidden>
+  <div class="page-head"><div class="wrap stack">
+    <span class="crumb">Services / Hair Transplant</span>
+    <h1>Hair <em>Transplant</em></h1>
+    <p class="lead">Moving your own healthy follicles to the areas where hair has thinned, planned around your hairline, donor supply and long-term pattern.</p>
+  </div></div>
+  <section><div class="wrap split">
+    <div class="stack">
+      <span class="eyebrow">The procedure</span>
+      <h2>How it works</h2>
+      <p class="muted">Follicles are taken from a donor area, usually the back and sides of the scalp where hair tends to be more resistant to thinning. They're then placed into the recipient area at angles chosen to match natural growth.</p>
+      <p class="muted">The technique, graft count and hairline design are decided by the surgical team after evaluating your scalp. <span style="color:var(--gold)">[Technique details to be provided by the Princess Ann team.]</span></p>
+    </div>
+    <div class="ph" style="aspect-ratio:4/3;min-height:0"><span>Procedure video<i>surgical team footage, provided by clinic</i></span></div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap stack" style="gap:28px">
+    <span class="eyebrow">Candidate considerations</span>
+    <h2>Is it right for you?</h2>
+    <div class="cards">
+      <div class="card"><div class="card-body"><h3>Donor supply</h3><p class="muted">You need enough healthy donor hair to cover the area you want to restore.</p></div></div>
+      <div class="card"><div class="card-body"><h3>Stable pattern</h3><p class="muted">Hair loss that's still progressing quickly can affect long-term planning.</p></div></div>
+      <div class="card"><div class="card-body"><h3>Overall health</h3><p class="muted">Some conditions and medications affect suitability. This is reviewed in consultation.</p></div></div>
+    </div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap stack" style="gap:28px">
+    <span class="eyebrow">Recovery</span>
+    <h2>A typical timeline</h2>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>When</th><th>What's common</th></tr></thead>
+      <tbody>
+        <tr><td>First days</td><td>Redness, tenderness and some swelling. Small scabs form around grafts.</td></tr>
+        <tr><td>Weeks 1 to 2</td><td>Scabs fall away. Most people return to routine activities, following clinic instructions.</td></tr>
+        <tr><td>Weeks 2 to 8</td><td>Transplanted hairs often shed. This is expected and is not graft loss.</td></tr>
+        <tr><td>Months 3 to 6</td><td>New growth begins to appear, often fine at first.</td></tr>
+        <tr><td>Months 12 to 18</td><td>Growth matures and the final result becomes clearer.</td></tr>
+      </tbody>
+    </table></div>
+    <p class="muted" style="font-size:13px">Timelines vary by person. Follow your surgical team's aftercare instructions.</p>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap stack" style="gap:20px">
+    <span class="eyebrow">Risks</span>
+    <h2>What to know before you decide</h2>
+    <p class="muted">Like any surgical procedure, hair transplantation carries risks. These can include bleeding, infection, swelling, temporary numbness, folliculitis, temporary shedding of existing hair, visible scarring, and results that are less dense than hoped. Your surgical team will review risks specific to you before any procedure. Results are not guaranteed.</p>
+    <a class="btn btn-gold" href="#contact" style="align-self:flex-start">Ask about your candidacy</a>
+  </div></section>
+</div>
+
+<!-- ============ EYEBROW ============ -->
+<div data-view="eyebrow-transplant" hidden>
+  <div class="page-head"><div class="wrap stack">
+    <span class="crumb">Services / Eyebrow Transplant</span>
+    <h1>Eyebrow <em>Transplant</em></h1>
+    <p class="lead">Rebuilding sparse, thin or uneven brows with your own hair, placed one follicle at a time to follow natural direction.</p>
+  </div></div>
+  <section><div class="wrap split">
+    <div class="ph" style="aspect-ratio:4/3;min-height:0"><span>Eyebrow procedure photo<i>provided by clinic</i></span></div>
+    <div class="stack">
+      <span class="eyebrow">The procedure</span>
+      <h2>Precision over volume</h2>
+      <p class="muted">Eyebrows use far fewer grafts than the scalp, but each one matters more. Follicles are taken from a donor area and placed at a shallow angle to match how brows grow.</p>
+      <p class="muted">Shape and density are planned with you before the procedure. <span style="color:var(--gold)">[Graft range and pricing for eyebrows TBC.]</span></p>
+    </div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap stack" style="gap:28px">
+    <span class="eyebrow">Good to know</span>
+    <div class="cards">
+      <div class="card"><div class="card-body"><h3>Who it suits</h3><p class="muted">People with brows thinned by over-plucking, scarring, or naturally sparse growth. Suitability is confirmed in consultation.</p></div></div>
+      <div class="card"><div class="card-body"><h3>Ongoing care</h3><p class="muted">Transplanted hairs come from the scalp and may keep growing longer, so regular trimming is usually needed.</p></div></div>
+      <div class="card"><div class="card-body"><h3>Recovery</h3><p class="muted">Mild redness and scabbing are common early. Shedding and regrowth follow a timeline similar to scalp transplants.</p></div></div>
+    </div>
+    <p class="muted" style="font-size:13px">Risks include swelling, infection, scarring and uneven growth. Results vary and are not guaranteed.</p>
+    <a class="btn btn-gold" href="#contact" data-interest="Eyebrow Transplant" style="align-self:flex-start">Ask about eyebrows</a>
+  </div></section>
+</div>
+
+<!-- ============ MEDICAL TEAM ============ -->
+<div data-view="medical-team" hidden>
+  <div class="page-head"><div class="wrap stack">
+    <span class="crumb">Our Medical Teams</span>
+    <h1>Two cities. <em>One plan.</em></h1>
+    <p class="lead">Know exactly who is responsible for each part of your care, in New York and in Zhengzhou.</p>
+  </div></div>
+  <section><div class="wrap stack" style="gap:32px">
+    <div class="stack" style="gap:12px">
+      <span class="tag">Zhengzhou, China</span>
+      <h2>Princess Ann surgical team</h2>
+      <p class="muted">Performs hair and eyebrow transplant surgery, surgical consultations and medical care. Collects surgical fees. Arranges hotel, airport pickup and local transport.</p>
+    </div>
+    <div class="team-grid">
+      <div class="person"><div class="ph"><span>Surgeon photo</span></div><h3>[Lead surgeon name]</h3><span class="muted">[Title · license / registration · years in practice]</span></div>
+      <div class="person"><div class="ph"><span>Surgeon photo</span></div><h3>[Surgeon name]</h3><span class="muted">[Title · credentials]</span></div>
+      <div class="person"><div class="ph"><span>Facility photo</span></div><h3>[Hospital / clinic name]</h3><span class="muted">[Address · facility license]</span></div>
+    </div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap stack" style="gap:32px">
+    <div class="stack" style="gap:12px">
+      <span class="tag">Flushing, Queens</span>
+      <h2>HQ Med Spa</h2>
+      <p class="muted">In-person consultations, scalp evaluations, and optional pre- and post-transplant services such as PRP and Alma TED where medically appropriate. Billed separately. No surgery is performed in New York under this program.</p>
+    </div>
+    <div class="team-grid">
+      <div class="person"><div class="ph"><span>Provider photo</span></div><h3>Monk</h3><span class="muted">[Full name · title · credentials]</span></div>
+      <div class="person"><div class="ph"><span>Provider photo</span></div><h3>[Provider name]</h3><span class="muted">[Title · credentials]</span></div>
+      <div class="person"><div class="ph"><span>Clinic photo</span></div><h3>HQ Med Spa</h3><span class="muted">[Street address], Flushing, NY</span></div>
+    </div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap split">
+    <div class="stack">
+      <span class="eyebrow">Professional exchange</span>
+      <h2>Trained together in China</h2>
+      <p class="muted">Monk spent two weeks with the surgical team in China, building the working relationship behind your care in both cities.</p>
+    </div>
+    <div class="results-grid" style="grid-template-columns:1fr 1fr">
+      <div class="ph" style="aspect-ratio:1;min-height:0"><span>Training photo</span></div>
+      <div class="ph" style="aspect-ratio:1;min-height:0"><span>Training photo</span></div>
+    </div>
+  </div></section>
+</div>
+
+<!-- ============ PROCESS ============ -->
+<div data-view="process" hidden>
+  <div class="page-head"><div class="wrap stack">
+    <span class="crumb">Our Process</span>
+    <h1>New York <em>→</em> China <em>→</em> New York</h1>
+    <p class="lead">Every step, who handles it, and what you need to do.</p>
+  </div></div>
+  <section><div class="wrap stack" style="gap:0">
+    <div class="steps" style="margin-top:0">
+      <div class="step"><span class="n">1</span><span class="where">Online</span><h3>Request a consultation</h3><p class="muted">Send your name and contact details. Our team reaches out to answer questions and schedule.</p></div>
+      <div class="step"><span class="n">2</span><span class="where">Flushing, Queens</span><h3>Meet in person</h3><p class="muted">Consultation and scalp evaluation at HQ Med Spa. Optional pre-procedure care where appropriate.</p></div>
+      <div class="step"><span class="n">3</span><span class="where">Before you fly</span><h3>Plan your trip</h3><p class="muted">Confirm your surgical plan and dates. You book your flight. Hotel and transfers are arranged.</p></div>
+      <div class="step"><span class="n">4</span><span class="where">Zhengzhou</span><h3>Arrive and settle in</h3><p class="muted">Airport pickup, hotel check-in and local assistance during your stay.</p></div>
+      <div class="step"><span class="n">5</span><span class="where">Zhengzhou</span><h3>Your procedure</h3><p class="muted">Surgical consultation and procedure with the Princess Ann team, followed by aftercare instructions.</p></div>
+      <div class="step"><span class="n">6</span><span class="where">Back in New York</span><h3>Follow-up at home</h3><p class="muted">Optional local check-ins and post-transplant care, billed separately, or with your own provider.</p></div>
+    </div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap">
+    <div class="ph" style="aspect-ratio:16/9;min-height:0"><span>Journey video<i>full version of the hero film</i></span></div>
+  </div></section>
+</div>
+
+<!-- ============ PACKAGE ============ -->
+<div data-view="package" hidden>
+  <div class="page-head"><div class="wrap stack">
+    <span class="crumb">Hair Transplant Package</span>
+    <h1>One price. <em>Clearly</em> listed.</h1>
+    <p class="lead">What's included, what isn't, and what's billed separately.</p>
+  </div></div>
+  <section><div class="wrap stack" style="gap:48px">
+    <div class="pkg">
+      <div class="price-side">
+        <span class="draft">Pending final approval</span>
+        <div class="price">$3,000</div>
+        <div class="grafts">2,000 grafts · USD</div>
+        <div class="per">$1.50 per graft</div>
+        <a class="btn btn-gold" href="#contact" style="align-self:flex-start">Request a consultation</a>
+      </div>
+      <div class="stack">
+        <span class="eyebrow">Included</span>
+        <ul class="list">
+          <li>Hair transplant surgery in Zhengzhou, China</li>
+          <li>Hotel accommodations <span class="muted">&nbsp;[number of nights TBC]</span></li>
+          <li>Airport pickup on arrival</li>
+          <li>Return airport transportation</li>
+          <li>Local assistance during your stay</li>
+        </ul>
+      </div>
+    </div>
+    <div class="split" style="align-items:start">
+      <div class="stack">
+        <span class="eyebrow">Not included</span>
+        <ul class="list x">
+          <li>International airfare, unless separately agreed</li>
+          <li>Travel insurance and visa fees <span class="muted">&nbsp;[confirm]</span></li>
+          <li>Meals outside of hotel arrangements <span class="muted">&nbsp;[confirm]</span></li>
+        </ul>
+      </div>
+      <div class="stack">
+        <span class="eyebrow">Optional, billed separately</span>
+        <ul class="list x">
+          <li>New York consultation services at HQ Med Spa <span class="muted">&nbsp;[free initial consult?]</span></li>
+          <li>Pre- and post-transplant care such as PRP or Alma TED, where medically appropriate</li>
+        </ul>
+        <p class="note">You're not required to use HQ Med Spa and may choose another qualified provider for follow-up.</p>
+      </div>
+    </div>
+    <div class="stack">
+      <span class="eyebrow">Eligibility</span>
+      <p class="muted">Final graft count and eligibility are confirmed by the surgical team after evaluation. <span style="color:var(--gold)">[Eligibility terms TBC before publishing.]</span></p>
+    </div>
+  </div></section>
+</div>
+
+<!-- ============ RESULTS ============ -->
+<div data-view="results" hidden>
+  <div class="page-head"><div class="wrap stack">
+    <span class="crumb">Before &amp; After</span>
+    <h1>Real <em>results</em></h1>
+    <p class="lead">Every photo here is a real patient who gave written permission. Individual results vary.</p>
+  </div></div>
+  <section><div class="wrap stack" style="gap:28px">
+    <div class="results-grid">
+      <div class="result"><div class="pair"><div class="ph"><span>Before</span></div><div class="ph"><span>After</span></div></div><span class="muted" style="font-size:13px">Hair · [grafts] grafts · [months] months</span></div>
+      <div class="result"><div class="pair"><div class="ph"><span>Before</span></div><div class="ph"><span>After</span></div></div><span class="muted" style="font-size:13px">Hair · [grafts] grafts · [months] months</span></div>
+      <div class="result"><div class="pair"><div class="ph"><span>Before</span></div><div class="ph"><span>After</span></div></div><span class="muted" style="font-size:13px">Hair · [grafts] grafts · [months] months</span></div>
+      <div class="result"><div class="pair"><div class="ph"><span>Before</span></div><div class="ph"><span>After</span></div></div><span class="muted" style="font-size:13px">Eyebrow · [grafts] grafts · [months] months</span></div>
+      <div class="result"><div class="pair"><div class="ph"><span>Before</span></div><div class="ph"><span>After</span></div></div><span class="muted" style="font-size:13px">Eyebrow · [grafts] grafts · [months] months</span></div>
+      <div class="result"><div class="pair"><div class="ph"><span>Before</span></div><div class="ph"><span>After</span></div></div><span class="muted" style="font-size:13px">Hair · [grafts] grafts · [months] months</span></div>
+    </div>
+    <p class="muted" style="font-size:13px">Results shown are individual outcomes and are not a guarantee. Your result depends on your hair characteristics, donor supply, health and aftercare.</p>
+  </div></section>
+</div>
+
+<!-- ============ FAQ ============ -->
+<div data-view="faq" hidden>
+  <div class="page-head"><div class="wrap stack">
+    <span class="crumb">FAQ</span>
+    <h1>Questions, <em>answered</em></h1>
+    <p class="lead">Can't find yours? Call <a href="tel:+17184455888" style="color:var(--gold)">718-445-5888</a> or request a consultation.</p>
+  </div></div>
+  <section><div class="wrap" style="max-width:860px">
+    <div class="faq-group">
+      <span class="eyebrow">Pricing</span>
+      <div class="faq">
+        <details><summary>What does the $3,000 package include?</summary><div class="a"><p>Surgery for 2,000 grafts in Zhengzhou, hotel accommodations, airport pickup, return airport transportation and local assistance. International airfare is not included.</p></div></details>
+        <details><summary>Are the New York services included?</summary><div class="a"><p>No. Consultations and care at HQ Med Spa are optional and billed separately by HQ Med Spa.</p></div></details>
+        <details><summary>Who do I pay for surgery?</summary><div class="a"><p>Surgical fees are paid to the Chinese medical provider, Princess Ann Hair Transplant. <span style="color:var(--gold)">[Payment method and timing TBC.]</span></p></div></details>
+      </div>
+    </div>
+    <div class="faq-group">
+      <span class="eyebrow">Travel</span>
+      <div class="faq">
+        <details><summary>Where is the surgery performed?</summary><div class="a"><p>In Zhengzhou, China, by the Princess Ann surgical team. No surgery is performed in New York under this program.</p></div></details>
+        <details><summary>Do I book my own flight?</summary><div class="a"><p>Yes, unless separately agreed. Hotel, airport pickup and return transfer are arranged for you.</p></div></details>
+        <details><summary>How long should I plan to stay?</summary><div class="a"><p><span style="color:var(--gold)">[Length of stay TBC by the surgical team.]</span></p></div></details>
+        <details><summary>Do I need a visa?</summary><div class="a"><p>Visa requirements depend on your passport. Check current entry rules for China before booking. <span style="color:var(--gold)">[Add guidance or link.]</span></p></div></details>
+      </div>
+    </div>
+    <div class="faq-group">
+      <span class="eyebrow">Surgery &amp; recovery</span>
+      <div class="faq">
+        <details><summary>Am I a good candidate?</summary><div class="a"><p>It depends on your donor hair, pattern of loss and overall health. That's what the consultation is for.</p></div></details>
+        <details><summary>When will I see results?</summary><div class="a"><p>Transplanted hairs commonly shed in the first weeks. New growth often starts around months 3 to 6, with results maturing over 12 to 18 months. Everyone is different.</p></div></details>
+        <details><summary>Are results guaranteed?</summary><div class="a"><p>No. Results vary by person, and every surgical procedure carries risks. Your surgical team will review these with you.</p></div></details>
+      </div>
+    </div>
+    <div class="faq-group">
+      <span class="eyebrow">Follow-up</span>
+      <div class="faq">
+        <details><summary>What happens when I get back to New York?</summary><div class="a"><p>You can book optional follow-up at HQ Med Spa in Flushing, billed separately, or see another qualified provider of your choice.</p></div></details>
+        <details><summary>Who do I contact if I have concerns after surgery?</summary><div class="a"><p><span style="color:var(--gold)">[Complication and escalation process TBC. This needs a clear answer before launch.]</span></p></div></details>
+      </div>
+    </div>
+  </div></section>
+</div>
+
+<!-- ============ CONTACT ============ -->
+<div data-view="contact" hidden>
+  <div class="page-head"><div class="wrap stack">
+    <span class="crumb">Contact</span>
+    <h1>Request a <em>free</em> consultation</h1>
+    <p class="lead">Tell us how to reach you. We'll answer your questions and help you decide if this is right for you.</p>
+  </div></div>
+  <section><div class="wrap split" style="align-items:start">
+    <div class="stack" style="gap:28px">
+      <div class="stack" style="gap:8px"><span class="eyebrow">Call</span><a class="phone" href="tel:+17184455888">718-445-5888</a></div>
+      <div class="stack" style="gap:8px"><span class="eyebrow">Visit in New York</span><p>HQ Med Spa<br><span class="muted">[Street address], Flushing, NY [ZIP]</span></p></div>
+      <div class="stack" style="gap:8px"><span class="eyebrow">Follow</span><p class="muted">TikTok · Instagram · Facebook <span style="color:var(--gold)">[handles TBC]</span></p></div>
+      <p class="note">Please don't share medical details in this form. We'll discuss your health privately during your consultation.</p>
+    </div>
+
+    <div class="form-card" id="formCard">
+      <form id="consultForm" novalidate class="stack" style="gap:20px">
+        <div class="field">
+          <label for="f-name">Full name</label>
+          <input id="f-name" name="name" autocomplete="name" required>
+          <span class="err" id="e-name"></span>
+        </div>
+        <div class="two">
+          <div class="field">
+            <label for="f-phone">Phone</label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" required>
+            <span class="err" id="e-phone"></span>
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required>
+            <span class="err" id="e-email"></span>
+          </div>
+        </div>
+        <fieldset class="field" style="border:0;padding:0;margin:0">
+          <legend class="legend" style="margin-bottom:8px">Interested in</legend>
+          <div class="choices">
+            <label class="choice"><input type="radio" name="interest" id="i-hair" value="Hair Transplant" checked><span>Hair Transplant</span></label>
+            <label class="choice"><input type="radio" name="interest" id="i-brow" value="Eyebrow Transplant"><span>Eyebrow Transplant</span></label>
+            <label class="choice"><input type="radio" name="interest" id="i-unsure" value="Not Sure Yet"><span>Not Sure Yet</span></label>
+          </div>
+        </fieldset>
+        <div class="field">
+          <label for="f-source">How did you hear about us? <span class="muted">(optional)</span></label>
+          <select id="f-source" name="heard">
+            <option value="">Select one</option>
+            <option>TikTok</option><option>Instagram</option><option>Facebook</option><option>Google</option><option>Friend or family</option><option>Other</option>
+          </select>
+        </div>
+        <div class="hp" aria-hidden="true"><label for="f-company">Company</label><input id="f-company" name="company" tabindex="-1" autocomplete="off"></div>
+        <input type="hidden" id="f-utm" name="utm">
+        <label class="consent" for="f-consent">
+          <input type="checkbox" id="f-consent" name="consent" required>
+          <span>I agree to be contacted by Ann Hair Transplant by phone, text or email about my inquiry. Message and data rates may apply. Reply STOP to opt out of texts. See our <a href="#privacy" style="color:var(--gold)">Privacy Policy</a>.</span>
+        </label>
+        <span class="err" id="e-consent"></span>
+        <button class="btn btn-gold" type="submit" style="justify-content:center">Request my free consultation</button>
+      </form>
+      <div class="done" id="done" hidden>
+        <div class="check" aria-hidden="true">✓</div>
+        <h3>Thanks, <span id="doneName"></span>. We got your request.</h3>
+        <p class="muted">Our team will reach out within [1 business day]. For anything urgent, call 718-445-5888.</p>
+        <button class="btn btn-ghost" id="again" type="button">Send another request</button>
+      </div>
+    </div>
+  </div></section>
+</div>
+
+<!-- ============ LEGAL ============ -->
+<div data-view="disclosures" hidden>
+  <div class="page-head"><div class="wrap stack"><span class="crumb">Legal</span><h1>Medical <em>Disclosures</em></h1><span class="draft" style="align-self:flex-start">Draft · pending legal and medical review</span></div></div>
+  <section><div class="wrap legal">
+    <div class="stack"><h3>Who provides your care</h3><p class="muted">Hair and eyebrow transplant surgery, surgical consultations and related medical care are provided by Princess Ann Hair Transplant in Zhengzhou, China, which also collects surgical fees. Optional consultations and pre- and post-transplant services in New York are provided by HQ Med Spa in Flushing, NY, and billed separately. HQ Institute provides marketing and website services only and does not provide medical care or collect surgical fees.</p></div>
+    <div class="stack"><h3>No surgery in New York</h3><p class="muted">No surgical procedures are performed in New York under this program.</p></div>
+    <div class="stack"><h3>Results and risks</h3><p class="muted">Results vary and are not guaranteed. All surgical procedures carry risk. Scalp treatments are not claimed to improve graft survival.</p></div>
+    <div class="stack"><h3>Your choice of provider</h3><p class="muted">You are not required to use HQ Med Spa and may choose another qualified healthcare provider for evaluation or follow-up.</p></div>
+    <div class="stack"><h3>Not medical advice</h3><p class="muted">Information on this site is general and is not a substitute for an evaluation by a qualified medical professional.</p></div>
+  </div></section>
+</div>
+<div data-view="privacy" hidden>
+  <div class="page-head"><div class="wrap stack"><span class="crumb">Legal</span><h1>Privacy <em>Policy</em></h1><span class="draft" style="align-self:flex-start">Draft · pending legal review</span></div></div>
+  <section><div class="wrap legal">
+    <div class="stack"><h3>What we collect</h3><p class="muted">Name, phone number, email, the service you're interested in, how you heard about us, and basic visit data such as referral source. We do not collect medical information through our website forms.</p></div>
+    <div class="stack"><h3>How we use it</h3><p class="muted">To respond to your inquiry and schedule consultations. [Sharing with providers, retention period, analytics tools and your rights TBC by counsel.]</p></div>
+  </div></section>
+</div>
+<div data-view="terms" hidden>
+  <div class="page-head"><div class="wrap stack"><span class="crumb">Legal</span><h1>Terms of <em>Use</em></h1><span class="draft" style="align-self:flex-start">Draft · pending legal review</span></div></div>
+  <section><div class="wrap legal">
+    <div class="stack"><h3>[Terms to be provided by counsel]</h3><p class="muted">Pricing terms, eligibility, cancellations and refunds, liability and governing law.</p></div>
+  </div></section>
+</div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div class="stack" style="gap:16px">
+        <a class="brand" href="#home"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 22 L7 10 L12 16 L16 7 L20 16 L25 10 L27 22 Z" stroke-linejoin="round"/><path d="M5 26 H27"/></svg><span><b>ANN</b><small>HAIR TRANSPLANT · 安公主植发植眉</small></span></a>
+        <a class="phone" href="tel:+17184455888" style="font-size:28px">718-445-5888</a>
+        <a class="btn btn-gold" href="#contact" style="align-self:flex-start">Free consultation</a>
+      </div>
+      <div><h4>Services</h4><ul><li><a href="#hair-transplant">Hair Transplant</a></li><li><a href="#eyebrow-transplant">Eyebrow Transplant</a></li><li><a href="#package">Package</a></li><li><a href="#results">Before &amp; After</a></li></ul></div>
+      <div><h4>About</h4><ul><li><a href="#process">Our Process</a></li><li><a href="#medical-team">Medical Team</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li></ul></div>
+    </div>
+    <div class="disclose">
+      <p>Surgery is performed by Princess Ann Hair Transplant in Zhengzhou, China. Optional New York services are provided and billed separately by HQ Med Spa, Flushing, NY. No surgery is performed in New York under this program. Results vary and are not guaranteed.</p>
+      <p><a href="#disclosures">Medical Disclosures</a> · <a href="#privacy">Privacy Policy</a> · <a href="#terms">Terms</a> · © 2026 Ann Hair Transplant</p>
+    </div>
+  </div>
+</footer>
+
+<div class="mcta">
+  <a class="btn btn-ghost" href="tel:+17184455888">Call</a>
+  <a class="btn btn-gold" href="#contact">Free consultation</a>
+</div>
+
+<script>
+(function(){
+  var views = document.querySelectorAll('[data-view]');
+  var menu = document.getElementById('mobileMenu');
+  var menuBtn = document.getElementById('menuBtn');
+
+  function show(){
+    var id = location.hash.slice(1) || 'home';
+    if(!document.querySelector('[data-view="'+id+'"]')) id = 'home';
+    views.forEach(function(v){
+      var on = v.dataset.view === id;
+      v.hidden = !on;
+      if(on){ v.classList.remove('fade'); void v.offsetWidth; v.classList.add('fade'); }
+    });
+    document.querySelectorAll('.links a').forEach(function(a){
+      if(a.getAttribute('href') === '#'+id) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');
+    });
+    menu.hidden = true; menuBtn.setAttribute('aria-expanded','false'); menuBtn.textContent = 'Menu';
+    window.scrollTo(0,0);
+  }
+  window.addEventListener('hashchange', show);
+  show();
+
+  menuBtn.addEventListener('click', function(){
+    var open = menu.hidden;
+    menu.hidden = !open;
+    menuBtn.setAttribute('aria-expanded', String(open));
+    menuBtn.textContent = open ? 'Close' : 'Menu';
+  });
+
+  // preselect interest from links like data-interest="Eyebrow Transplant"
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('[data-interest]');
+    if(!a) return;
+    var r = document.querySelector('input[name="interest"][value="'+a.dataset.interest+'"]');
+    if(r) r.checked = true;
+  });
+
+  // referral source: utm params + referrer, stored with the inquiry
+  try{
+    var q = new URLSearchParams(location.search);
+    var utm = ['utm_source','utm_medium','utm_campaign','utm_content'].map(function(k){return q.get(k) ? k+'='+q.get(k) : null}).filter(Boolean).join('&');
+    document.getElementById('f-utm').value = utm || (document.referrer ? 'ref='+document.referrer : '');
+  }catch(e){}
+
+  var form = document.getElementById('consultForm');
+  var done = document.getElementById('done');
+
+  function setErr(id, msg){
+    var el = document.getElementById('e-'+id);
+    var input = document.getElementById('f-'+id);
+    el.textContent = msg || '';
+    if(input) input.setAttribute('aria-invalid', msg ? 'true' : 'false');
+    return !msg;
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = form.name.value.trim();
+    var phone = form.phone.value.replace(/\D/g,'');
+    var email = form.email.value.trim();
+    var ok = true;
+    ok = setErr('name', name.length < 2 ? 'Enter your full name.' : '') && ok;
+    ok = setErr('phone', phone.length < 10 ? 'Enter a phone number with area code.' : '') && ok;
+    ok = setErr('email', /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ? '' : 'Enter a valid email, like name@example.com.') && ok;
+    ok = setErr('consent', form.consent.checked ? '' : 'Check the box so we can contact you about your request.') && ok;
+    if(!ok){ var first = form.querySelector('[aria-invalid="true"]') || document.getElementById('f-consent'); first.focus(); return; }
+    if(form.company.value){ return; } // honeypot: silently drop bots
+
+    // TODO (production): POST to the backend here. Store the inquiry securely,
+    // email the intake inbox, and keep utm/heard fields for attribution.
+    var payload = {
+      name:name, phone:form.phone.value.trim(), email:email,
+      interest:form.interest.value, heard:form.heard.value,
+      utm:form.utm.value, consent:true, submitted_at:new Date().toISOString()
+    };
+    void payload;
+
+    document.getElementById('doneName').textContent = name.split(' ')[0];
+    form.hidden = true; done.hidden = false;
+    done.querySelector('.check').scrollIntoView({block:'center'});
+  });
+
+  document.getElementById('again').addEventListener('click', function(){
+    form.reset(); done.hidden = true; form.hidden = false;
+  });
+})();
+</script>
+</body>
+</html>
