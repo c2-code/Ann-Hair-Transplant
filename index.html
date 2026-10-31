@@ -143,6 +143,12 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rg
 .textlink{color:var(--gold);text-decoration:none;font-weight:500;font-size:15px}
 .textlink:hover{text-decoration:underline}
 
+.scalp{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(28px,5vw,64px);align-items:center}
+.scalp > *{min-width:0}
+.scalp-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.scalp-grid .card-body{padding:22px;gap:8px}
+@media (max-width:860px){.scalp{grid-template-columns:1fr}}
+@media (max-width:480px){.scalp-grid{grid-template-columns:1fr}}
 /* package */
 .pkg{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:24px;overflow:hidden;background:var(--surface)}
 .pkg > div{padding:clamp(28px,4vw,48px);min-width:0}
@@ -344,6 +350,26 @@ footer{border-top:1px solid var(--line);padding-block:64px 120px;background:#050
   </section>
 
   <section style="padding-top:0">
+    <div class="wrap scalp">
+      <div class="stack">
+        <span class="eyebrow">Before &amp; after your procedure</span>
+        <h2>Start with a <em>healthy</em> scalp.<br>Come home to the same care.</h2>
+        <p class="lead">Our New York partner, HQ Med Spa in Flushing, already specializes in non-surgical hair restoration. Before you travel, they evaluate your scalp and treat issues like shedding or irritation. When you're back, they're right here for follow-up care.</p>
+        <div class="row">
+          <a class="btn btn-ghost" href="https://www.hqmedspa.com/hair-restoration.html" target="_blank" rel="noopener">See HQ Med Spa hair restoration ↗</a>
+        </div>
+        <p class="note">Optional and billed separately by HQ Med Spa. Scalp treatments don't replace your surgical team's aftercare and aren't guaranteed to change transplant results.</p>
+      </div>
+      <div class="scalp-grid">
+        <div class="card"><div class="card-body"><span class="eyebrow">Step one</span><h3>Scalp analysis</h3><p class="muted">A detailed look at your scalp and follicles so care matches the real cause of your thinning.</p></div></div>
+        <div class="card"><div class="card-body"><span class="eyebrow">Your own plasma</span><h3>PRP</h3><p class="muted">Growth factors concentrated from your own blood, delivered to the scalp.</p></div></div>
+        <div class="card"><div class="card-body"><span class="eyebrow">小红帽</span><h3>Scalp booster</h3><p class="muted">A nourishing blend of hyaluronic acid, amino acids, B vitamins and zinc, done as a short course.</p></div></div>
+        <div class="card"><div class="card-body"><span class="eyebrow">Needle-free</span><h3>Alma TED</h3><p class="muted">Ultrasound delivers a hair-care formula into the scalp. No needles, no downtime.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
     <div class="wrap">
       <div class="orbit">
         <div class="center"><h2>Sound familiar?<br>There's a <em>clearer</em> path.</h2></div>
@@ -476,6 +502,7 @@ footer{border-top:1px solid var(--line);padding-block:64px 120px;background:#050
       <div class="card"><div class="card-body"><h3>Stable pattern</h3><p class="muted">Hair loss that's still progressing quickly can affect long-term planning.</p></div></div>
       <div class="card"><div class="card-body"><h3>Overall health</h3><p class="muted">Some conditions and medications affect suitability. This is reviewed in consultation.</p></div></div>
     </div>
+    <p class="muted">Want your scalp checked before you travel? <a class="textlink" href="https://www.hqmedspa.com/hair-restoration.html" target="_blank" rel="noopener">HQ Med Spa offers scalp analysis and care in Flushing ↗</a></p>
   </div></section>
   <section style="padding-top:0"><div class="wrap stack" style="gap:28px">
     <span class="eyebrow">Recovery</span>
@@ -634,7 +661,7 @@ footer{border-top:1px solid var(--line);padding-block:64px 120px;background:#050
         <span class="eyebrow">Optional, billed separately</span>
         <ul class="list x">
           <li>New York consultation services at HQ Med Spa <span class="muted">&nbsp;[free initial consult?]</span></li>
-          <li>Pre- and post-transplant care such as PRP or Alma TED, where medically appropriate</li>
+          <li>Pre- and post-transplant scalp care such as PRP, 小红帽 scalp booster or Alma TED, where medically appropriate. <a class="textlink" href="https://www.hqmedspa.com/hair-restoration.html" target="_blank" rel="noopener">Details ↗</a></li>
         </ul>
         <p class="note">You're not required to use HQ Med Spa and may choose another qualified provider for follow-up.</p>
       </div>
