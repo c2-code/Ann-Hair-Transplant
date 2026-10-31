@@ -98,6 +98,9 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rg
 .journey-stage .r{text-align:right}
 .window{width:clamp(220px,26vw,320px);aspect-ratio:3/4.2;border-radius:46% / 38%;padding:16px;background:linear-gradient(160deg,#e9e6df,#b9b5ad);box-shadow:0 0 0 10px #d9d5cd inset,0 30px 80px rgba(0,0,0,.6),0 0 120px rgba(207,179,124,.08);max-width:100%}
 .window .ph{height:100%;min-height:0;border-radius:44% / 36%;border-color:rgba(18,26,46,.35);background:linear-gradient(180deg,#5c8fc9,#bcd4ec);}
+.window{position:relative}
+.window img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 40%;border-radius:44% / 36%}
+.window::after{content:"";position:absolute;inset:16px;border-radius:44% / 36%;background:linear-gradient(125deg,rgba(255,255,255,.22) 0%,rgba(255,255,255,0) 38%);box-shadow:inset 0 0 30px rgba(0,0,0,.45);pointer-events:none}
 .window .ph span{color:#0d1626}.window .ph span i{color:#1d2b44}
 @media (max-width:760px){.journey-stage{grid-template-columns:1fr;text-align:center;justify-items:center}.journey-stage .r{text-align:center}}
 
@@ -297,8 +300,8 @@ footer{border-top:1px solid var(--line);padding-block:64px 120px;background:#050
     <div class="wrap">
       <div class="journey-stage">
         <h2>Leave from<br><em>New York</em></h2>
-        <div class="window"><div class="ph"><span>Window clip<i>clouds / flight b-roll</i></span></div></div>
-        <h2 class="r">Arrive<br><em>taken care of</em></h2>
+        <div class="window"><img src="assets/zhengzhou-skyline.jpg" alt="Zhengzhou skyline at dusk seen through an airplane window" width="900" height="1125" loading="lazy" decoding="async"></div>
+        <h2 class="r">Land in<br><em>Zhengzhou</em></h2>
       </div>
       <div class="steps">
         <div class="step">
