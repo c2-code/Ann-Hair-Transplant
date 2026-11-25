@@ -197,6 +197,9 @@ td:first-child{color:var(--fg);font-weight:500}
 .person .ph{aspect-ratio:4/5;min-height:0}
 .person{display:flex;flex-direction:column;gap:12px}
 .clinic-media{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:850px}.clinic-media figure{margin:0}.clinic-media video{display:block;width:100%;max-height:560px;background:#151926;border-radius:16px}.clinic-media figcaption{margin-top:10px;color:var(--muted);font-size:14px}.clinic-collage{display:block;width:100%;max-width:850px;height:auto;border-radius:16px}@media(max-width:600px){.clinic-media{grid-template-columns:1fr}}
+.home-team{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:clamp(28px,5vw,72px)}
+.home-team img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:18px}
+@media(max-width:760px){.home-team{grid-template-columns:1fr}}
 .clinic-signage{margin:0;max-width:850px}
 .clinic-signage img{display:block;width:100%;height:auto;border-radius:16px}
 .clinic-signage figcaption{margin-top:10px;color:var(--muted);font-size:14px}
@@ -426,7 +429,8 @@ footer{border-top:1px solid var(--line);padding-block:64px 120px;background:#050
   </section>
 
   <section style="padding-top:0">
-    <div class="wrap">
+    <div class="wrap home-team">
+      <img src="assets/ann-team-meeting.jpg" alt="The ANN team meeting at the clinic in China" width="530" height="395" loading="lazy">
       <div class="stack">
         <span class="eyebrow">Medical team</span>
         <h2>A team that has <em>worked together</em>, not just referred.</h2>
