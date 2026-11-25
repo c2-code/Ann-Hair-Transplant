@@ -196,6 +196,10 @@ td:first-child{color:var(--fg);font-weight:500}
 .team-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:20px}
 .person .ph{aspect-ratio:4/5;min-height:0}
 .person{display:flex;flex-direction:column;gap:12px}
+.clinic-media{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:850px}.clinic-media figure{margin:0}.clinic-media video{display:block;width:100%;max-height:560px;background:#151926;border-radius:16px}.clinic-media figcaption{margin-top:10px;color:var(--muted);font-size:14px}.clinic-collage{display:block;width:100%;max-width:850px;height:auto;border-radius:16px}@media(max-width:600px){.clinic-media{grid-template-columns:1fr}}
+.clinic-signage{margin:0;max-width:850px}
+.clinic-signage img{display:block;width:100%;height:auto;border-radius:16px}
+.clinic-signage figcaption{margin-top:10px;color:var(--muted);font-size:14px}
 .team-profile{max-width:250px}
 .team-profile img{display:block;width:100%;height:auto;border-radius:16px}
 
@@ -534,11 +538,20 @@ footer{border-top:1px solid var(--line);padding-block:64px 120px;background:#050
       <h2>Princess Ann surgical team</h2>
       <p class="muted">Performs hair and eyebrow transplant surgery, surgical consultations and medical care. Collects surgical fees. Arranges hotel, airport pickup and local transport.</p>
     </div>
+    <figure class="clinic-signage"><img src="assets/ann-clinic-signage.jpg" alt="ANN Hair Transplant signage in Chinese" width="1160" height="350" loading="lazy"><figcaption>ANN Hair Transplant in China</figcaption></figure>
     <div class="person team-profile">
       <img src="assets/china-leadership.jpg" alt="Member of the China leadership team" loading="lazy" width="250" height="250">
       <h3>China leadership</h3>
       <span class="muted">Owner and operations leadership in China</span>
     </div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap stack" style="gap:24px">
+    <div class="stack" style="gap:12px"><span class="eyebrow">Inside ANN in China</span><h2>Meet the team and see the process</h2><p class="muted">A look at the team and a hairline consultation at ANN Hair Transplant.</p></div>
+    <div class="clinic-media">
+      <figure><video controls playsinline preload="none" poster="assets/ann-team-poster.jpg"><source src="assets/ann-team-visit.m4v" type="video/mp4">Your browser does not support video playback.</video><figcaption>At ANN Hair Transplant in China</figcaption></figure>
+      <figure><video controls playsinline preload="none" poster="assets/ann-hairline-poster.jpg"><source src="assets/ann-hairline-consult.m4v" type="video/mp4">Your browser does not support video playback.</video><figcaption>A look at hairline planning</figcaption></figure>
+    </div>
+    <img class="clinic-collage" src="assets/ann-team-collage.jpg" alt="A collage of the ANN Hair Transplant clinic and team meeting and consulting in China" loading="lazy" width="1200" height="1200">
   </div></section>
   <section style="padding-top:0"><div class="wrap stack" style="gap:32px">
     <div class="stack" style="gap:12px">
